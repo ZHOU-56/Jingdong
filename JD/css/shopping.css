@@ -1,0 +1,348 @@
+/*头部*/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}
+header{
+    width:100%;
+    height: 80px;
+}
+header .header-content{
+    box-sizing: border-box;
+    width: 990px;
+    height: 80px;
+    margin: 0 auto;
+}
+header .header-content .logo{
+    float: left;
+    width: 160px;
+    height: 60px;
+    background: url("../images/login/icon.png") no-repeat 0 15px;
+}
+header .header-content span{
+    float: left;
+    font-size: 24px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+header .header-content .login{
+    float: right;
+    font-size: 12px;
+    margin-top: 55px;
+    padding-bottom: 5px;
+    font-family: Arial,Verdana,"\5b8b\4f53";
+}
+header .header-content .login i{
+    display: inline-block;
+    width: 18px;
+    height: 16px;
+    margin: 0 5px;
+    background: url("../images/login/msg-icon.png") no-repeat ;
+}
+header .header-content .login a{
+    color: #999;
+    position: relative;
+    top: -5px;
+
+}
+header .header-content .login a:hover {
+    color: #E4393C;
+    text-decoration: underline;
+}
+
+/*center*/
+.shopping{
+    width:100%;
+    height: 550px;
+}
+.shopping .shoppingContent{
+    box-sizing: border-box;
+    width: 990px;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.shopping .shoppingContent>a{
+    color:#e4393c;
+    font-size:18px;
+    font-weight: 700;
+}
+.shopping .shoppingContent>a>span{
+    font-size:16px;
+}
+.shopping .shoppingTitle{
+    box-sizing:content-box;
+    margin-top:5px;
+    margin-bottom:10px;
+    width:988px;height:32px;
+    padding:5px 0;
+    background-color:#f3f3f3;
+    border:1px solid #e9e9e9; 
+    border-top:none;
+    font-size:12px;
+    color:#666;
+}
+.shopping .shoppingTitle .check{
+    box-sizing:content-box;
+    height:18px;width:122px;
+    float:left;
+    padding-top:7px;padding-left:11px;
+    line-height:18px;
+}
+.shopping .shoppingTitle .foodsInfor{
+    width:208px;height:32px;
+    line-height:32px;
+    float:left;
+}
+.bukong{
+    width:180px;height:32px;
+    float:left;
+}
+.comment{
+    float:left;
+    height:32px;
+    line-height:32px;
+}
+.danjia{
+    width:120px;
+    padding-right:50px;
+    box-sizing:content-box;
+    text-align:right;
+}
+.shuliang{
+    width:80px;
+    padding-left:10px;
+}
+.xiaoji{
+    width:140px;
+    text-align:center;
+}
+.caozuo{
+    width:75px;
+}
+
+/*物品*/
+.wuping{
+    width:100%;
+    height:400px;
+}
+.JDself{
+    box-sizing:border-box;
+    padding-left:11px;
+    height:30px;line-height:30px;
+}
+#JD{
+    float:left;
+}
+.JDlabel{
+    float:left;
+    font-size:12px;
+    padding-left:5px;
+    width:58px;height:18px;
+    line-height:18px;
+    background-color:#e4393c;
+    color:white;
+}
+.buy{
+    width:100%;height:304px;
+    border-style: solid;
+    border-width: 2px 1px 1px;
+    border-color: #aaa #f1f1f1 #f1f1f1;
+    background: #fff;
+}
+.buy>div{
+    width:100%;height:121px;
+    box-sizing:border-box;
+    border-bottom:1px solid #ccc;
+    padding-left:40px;
+    padding-right:10px;
+    padding-bottom:1px;
+    margin-top:30px;
+    position:relative;
+}
+/*信息部分*/
+.clear{
+    width:938px;height:110px;
+    border-top: 1px solid #f1f1f1;
+}
+.erji{
+    width:938px;height:110px;
+    border-top: 1px solid #f1f1f1;   
+}
+#clearInput{
+    position:absolute;
+    left:10px;top:15px;
+}
+#sonyInput{
+    position:absolute;
+    left:10px;top:15px;
+}
+
+.goods-item{
+    width:300px;height:85px;
+    margin-top:15px;
+    float:left;
+}
+.goods-item a{
+    float:left;
+}
+.goods-item img{
+    border: 1px solid #eee;
+}
+
+.goods-item p{
+    width:208px;height:40px;
+    float:left;
+    margin-left:10px;
+    line-height:20px;
+    font-size:12px;
+    cursor:pointer;
+}
+.goods-item p:hover{
+    color:red;
+}
+.item-msg{
+    width:300px;
+    font-size:12px;
+}
+.item-msg span{
+    display:inline-block;
+    margin-bottom:6px;
+    margin-left:10px;
+}
+.item-msg i{
+    display:inline-block;
+    width:17px;height:16px;
+    background-image: url(../images/login/2700.png);
+    background-repeat: no-repeat;
+}
+.item-msg .seven{
+    background-image:url(../images/login/2700757.png);
+}
+.item-msg span:nth-of-type(1){
+    color:#6485cb
+}
+.item-msg span:nth-of-type(2){
+    color:#aaa;
+}
+
+.guige{
+    width:180px;height:95px;
+    box-sizing:content-box;
+    float:left;
+    padding:19px 5px 0 15px;
+}
+.guige p{
+    font-size:12px;color:#666;
+}
+.price{
+    width:135px;height:40px;
+    float:left;
+    text-align:right;
+    padding:15px 30px 10px 0;
+}
+.num{
+    width:80px;height:42px;
+    float:left;
+    padding:15px 0 10px 0;
+}
+.num a{
+    display:inline-block;
+    width:17px;height:22px;
+    text-align:center;
+    border: 1px solid #cacbcb;
+    float:left;
+}
+.num input{
+    text-align:center;
+    display:inline-block;
+    border: 1px solid #cacbcb;
+    width:46px;height:22px;
+    float:left;
+}
+.smallCount{
+    width:100px;height:40px;
+    padding:15px 40px 10px 0;
+    float:left;
+    box-sizing:content-box;
+    color:#e54346;
+    text-align:right;
+}
+.dele{
+    width:60px;height:60px;padding:15px 0 10px 0;
+    float:left;
+    font-size:14px;
+    text-align:center;
+}
+.dele a{
+    color:#666;
+}
+/*结算*/
+.finaly{
+    border:1px solid #f0f0f0;
+    margin-top:30px;
+    box-sizing:border-box;
+    padding-left:11px;
+    font-size:12px;
+    color:#666;
+    widht:900px;height:50px;
+    line-height:45px;
+}
+.finaly .check{
+    float:left;
+}
+.tijiao{
+    float:right;
+    text-align:center;
+    line-height:50px;
+    font-size:20px;
+    color:white;
+    font-weight:700;
+    width:96px;height:50px;
+    background-color:#e54346;
+}
+#calculate{
+    width:125px;
+    height:100%;
+    padding-right:15px;
+    float:right;
+}
+.finaly #count,#choseAdd{
+    width:160px;
+    font-size:14px;
+    float: right;
+    height:100%;
+}
+.finaly div span{
+    color:red;
+    font-weight:700;
+}
+/*footer*/
+footer{
+    font-size: 12px;
+    text-align: center;
+    border-top: solid 1px #e6e6e6;
+    color: #999;
+    padding-bottom: 30px;
+}
+footer p a{
+    font-size: 12px;
+    text-align: center;
+    color: #999;
+}
+footer p:nth-child(1){
+
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+footer p span{
+
+    padding-left: 1px;
+    margin: 0 10px;
+    font-size: 10px;
+    background-color: #999;
+}
+
+.form-check a{
+    float:right;
+}

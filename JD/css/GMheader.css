@@ -1,0 +1,303 @@
+  #header1{
+		height: 34px;
+		width: 100%;
+		background: #e3e4e5;
+		position: relative;
+	}
+	#header1 .lefthead {
+       height: 100%;
+       width: 160px;
+       display:flex;
+       position: absolute;
+       left:70px;
+       top:0;
+       z-index:1;
+	}
+	#header1 .lefthead>li{
+		  text-align: center;
+      line-height:34px;
+	}
+	#header1 .lefthead>li:first-child{
+		 height: 34px;
+     flex:4;       
+	}
+	#header1 .lefthead>li:nth-child(2){
+     height: 34px;
+     font-size: 14px;
+     flex: 3;
+	}
+  #header1 .lefthead>li:nth-child(2)>svg{  
+      font-size: 18px;
+      line-height: 34px;   
+  }
+  #header1 .lefthead>li:nth-child(2):hover{
+    background: white;
+
+  } 
+  #header1 .lefthead>li:nth-child(2):hover #dizhi{
+    display: block;
+  }
+  #dizhi{
+    position: absolute;
+    width: 310px;
+    height: 240px;
+    border:1px solid #eee;
+    border-top: transparent;
+    display: none; 
+    top:34px;
+    left:90px;
+    z-index:14;
+    background: #fff;
+  } 
+  #dizhi>li{
+    float: left;
+    width:45px;
+    margin-left:15px;
+    margin-top:5px; 
+    height:28px;
+    line-height: 28px;
+    color:#999;
+  }
+  #dizhi>li:hover{
+    background-color: #f4f4f4;
+    color:#c81623;
+  }
+  #dizhi #active{  
+    background-color: #f30213;
+    color:#fff;
+  }
+  #dizhi #active a{
+     color:white;
+  }
+
+
+  /*右边的li*/
+  #header1 .righthead{
+    position: absolute;
+    right:70px;
+    top:0;
+    display: flex;
+    text-align: center;
+    line-height: 34px;
+  }
+  #header1 .righthead li{
+    height: 34px;
+    width: 69px;
+    line-height: 34px;
+    text-align: center;
+    flex:1;
+  }
+  #header1 .righthead li:nth-child(4),
+  #header1 .righthead li:nth-child(7),
+  #header1 .righthead li:nth-child(8){
+      width:87px;
+  }  
+  #header1 .righthead>li:nth-child(2)>a{
+    color:red;
+  }
+  #header1 .righthead li:nth-child(4):hover{
+    background: #fff;
+  }
+   #header1 .righthead li:nth-child(4):hover .myJD{
+    display: block;
+   }
+  #header1 .righthead li:nth-child(4) .myJD{
+     position: absolute;
+     width: 270px;
+     height: 170px;
+     top:34px;
+     border:1px solid #eee;
+     border-top: transparent;
+     display: none;
+     z-index:9;
+     background: #fff;
+   }
+   #header1 .righthead li:nth-child(4) .myJD li{
+     width: 115px;
+     height: 34px;
+     float:left;
+     margin-left: 10px;
+     text-align: left;
+   }
+   #header1 .righthead li:nth-child(4) .myJD span{
+     position: absolute;
+     border-top:1px solid #eee;
+     top:102px;
+     left:0;
+     width: 270px;
+     height:78px;
+     z-index: -1;
+   }
+   /* #header1 .righthead li:nth-child(7)  客户服务*/
+  #header1 .righthead li:nth-child(7):hover{
+    background: #fff;   
+  }
+  #header1 .righthead li:nth-child(7):hover #Service{
+    display: block;
+  }
+  #header1 .righthead li:nth-child(7) #Service{
+    position: absolute;
+    top:34px;
+    width: 164px;
+    height: 232px;
+    border:1px solid #eee; 
+    border-top: transparent;
+    display:none;
+    z-index:9;
+    background: #fff;
+  }
+  #Service #xuxian{
+    width: 162px;
+    height: 26px;
+    position: absolute;
+    top:129px;
+    left: 0;
+    border-top:1px dashed #eee;
+  }
+  #Service h2{
+    width: 154px;
+    height: 26px;
+    font-size: 14px;
+    float:left;
+    color:black;
+    margin-left: 10px;
+    margin-top: 4px;
+    text-align: left;
+    line-height: 26px;
+  }
+  #header1 .righthead li:nth-child(7) #Service li{
+    margin-left: 10px;
+    width: 67px;
+    height: 24px;
+    float: left;
+    text-align:left;
+    line-height: 24px;
+  }
+  /*#header1 .righthead li:nth-child(8) 网站导航*/
+  #header1 .righthead li:nth-child(8):hover{
+    background: #fff;
+  } 
+  #header1 .righthead li:nth-child(8):hover #webnav{
+    display: block;
+  }
+  #webnav{
+    width: 1210px;
+    height: 178px;
+    position: absolute;
+    top: 34px;
+    left:-512px;
+    border:1px solid #eee;
+    text-align: left;
+    display: none;
+    z-index:9;
+    background: #fff;
+  }
+
+  #webnav ul{
+    width: 260px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+    border-right:1px solid #eee;
+  }
+  #webnav ul:last-child{
+    border-right:0px solid #eee;
+  }
+  #header1 .righthead li:nth-child(8) #webnav ul:nth-child(1){
+    width: 360px;
+    margin-left: 10px;
+  }
+  #webnav ul h2{
+    width: 260px;
+    float: left;
+    color:black;
+  }
+  #webnav ul:nth-child(1) h2{
+     width: 360px;
+  }
+  #header1 .righthead li:nth-child(8) #webnav ul li{
+    width: 80px;
+    height: 24px;
+    float: left;
+    text-align: left;
+    line-height: 24px;
+   }
+   /* 手机京东hover事件*/
+  #header1 .righthead #jdapp:hover #sjapp{
+     display:block;
+  }
+  #header1 .righthead #sjapp {
+    position:absolute;
+    top:34px;
+    left:507px;
+    width: 190px;
+    height: 300px;
+    display:none;
+    z-index:9;
+    background: #fff;
+  }
+  #header1 .righthead #sjapp::before{
+    border:8px solid transparent; 
+    position: absolute;
+    content: ' ';
+    height: 0;
+    width: 0;
+    left:80%;    /*根据三角形的位置，可以随意更改。*/
+    border-bottom-color: #fff;
+    top:-16px;
+  }
+  #header1 .righthead #sjapp ul{
+     width: 190px;
+     height: 300px;
+  }
+  #header1 .righthead #sjapp ul li{
+     position:relative;
+     float: left;
+     width:188px;
+     height: 100px;
+     border:1px solid #eee;
+     text-align: left;
+  }
+  #header1 .righthead #sjapp ul li>img{
+    position:absolute;
+    display:inline-block;
+    width: 70px;
+    height: 70px;
+    left:5px;
+    top:15px;
+  }
+  #header1 .righthead #sjapp ul li h2{
+    width:100px;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+    color:black;
+    font-size: 14px;
+    margin-left:78px;
+    margin-top:15px;
+    cursor: pointer;
+   }
+  #header1 .righthead #sjapp ul li p{
+    width: 94px;
+    height: 14px;
+    line-height: 14px;
+    float: left;
+    margin-left:78px;
+    color:red;
+  }
+  #header1 .righthead #sjapp ul li p:nth-of-type(2){
+     height: 42px;
+   }
+  #header1 .righthead #sjapp ul li span{
+    height: 25px;
+    width: 100px;
+    position:absolute;
+    bottom:20px;
+    left:78px;
+    cursor:pointer;
+   }
+  #header1 .righthead #sjapp ul li span img{
+    width: 100%;
+    height: 100%;
+  }

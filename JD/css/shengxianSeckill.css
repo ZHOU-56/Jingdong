@@ -1,0 +1,221 @@
+body,ul{margin:0;}
+ul{padding:0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+h2{margin:0;}
+#head-first{
+	width:100%;
+	margin:0 auto;
+}
+#header-first{width:100%;}
+#header-first>.top_header{
+	height:30px;width:100%;
+	background-color:#e3e4e5;
+	border-bottom:1px solid #ddd;
+}
+#header-first .top_header>.top_left{
+	width:200px;height:30px;
+	margin-left:60px;
+}
+#header-first .top_header>.top_left li{
+	float: left;
+	cursor: pointer;
+	line-height:30px;
+	font-size:12px;
+	margin-left: 10px;
+	padding-left: 8px;
+	position: relative;
+}
+// .myFont_1,.myFont_2{font-size:16px;font-weight:bold;color:#5c5452;}
+#header-first .top_header>.top_left li a{color:#999;}
+#header-first .top_header>.top_left li:first-child>a:hover{color:#c81623;}
+#header-first #address{padding-right:12px;box-sizing:border-box;}
+#header-first #address>#Subaddress{
+	position: absolute;
+	top:30px;left:-1px;
+	width:300px;height:230px;
+	display: none;
+	border:1px solid #ddd;
+	border-top: none; 
+	background:#fff;
+}
+#header-first #address>#Subaddress li{
+	float: left;
+	width:40px;height:25px;
+	margin-left: 15px;
+	margin-top: 5px;
+	text-align: center;
+	line-height:25px;
+	cursor: pointer;
+	color:#999;
+	padding:0;
+}
+#header-first #address>#Subaddress li:hover{
+	background-color: #f4f4f4;
+	color:#c81623;
+}
+#header-first #address>#Subaddress #active{
+	background-color: #f30213;
+	color:#fff;
+}
+#header-first #address:hover #Subaddress{display: block;z-index: 60;}
+#header-first #address:hover{
+	background-color: #fff;
+	border-right:1px solid #ddd;
+	border-left:1px solid #ddd;
+}
+
+#header-first .top_header .top_right{
+	height:30px;
+	float: right;
+	position: relative;
+	margin-right: 85px;
+	margin-top:-30px;
+}
+#header-first .top_header .top_right li{
+	height:30px;
+	width:70px;
+	float: left;
+	font-size:12px;
+	line-height: 30px;
+	text-align: center;
+	box-sizing: border-box;
+}
+#header-first .top_header .top_right li:nth-child(4),
+#header-first .top_header .top_right li:nth-child(7),
+#header-first .top_header .top_right li:nth-child(8){
+	width:87px;
+}
+#header-first .top_header .top_right li>span{
+	display: inline-block;
+	position: absolute;
+	height:12px;width:1px;
+	border-right:1px solid black;
+	border-color: #999;
+	margin-top: 9px;
+	margin-left: 8px;
+}
+#header-first .top_header .top_right li:first-child{width:80px;}
+#header-first .top_header .top_right li>a:hover{color:#f30213;}
+#header-first .top_header .top_right li>a{color:#999;}
+
+.myFont_3{color:#999;font-size:14px;cursor: pointer;}
+#header-first .top_right #myJD{box-sizing: border-box;}
+#header-first .top_right #myJD>#SubmyJD{
+	position: absolute;
+	top:30px;left:220px;
+	width:280px;height:140px;
+	border:1px solid #ddd;	
+	border-top:none;
+	display: none;
+	background:#fff;
+}
+#header-first .top_right #myJD>#SubmyJD li{
+	width:40%;height:20%;
+	box-sizing: border-box;
+	line-height:28px;
+	color:#999;
+	cursor: pointer;
+}
+#header-first .top_right #myJD>#SubmyJD li:nth-child(2n){width:60%;padding-left: }
+#header-first .top_right #myJD>#SubmyJD li:hover{color:#f30213;}
+#header-first .top_right #myJD>#SubmyJD li:nth-child(5),
+#header-first .top_right #myJD>#SubmyJD li:nth-child(6){
+	border-bottom: 1px solid #ddd;
+}
+#header-first .top_right #myJD:hover{
+	background-color: #fff;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	height:31px;
+}
+#header-first #myJD:hover #SubmyJD{display: block;z-index:60;}
+
+#header-first .top_right #SubService{
+	width:170px;height: 235px;
+	border:1px solid #ddd;
+	border-top:none;
+	display: none;
+	padding-left: 10px;
+	background:#fff; 
+	position:absolute;
+}
+#header-first .top_right #service:hover{
+	background-color: #fff;
+	border-right:1px solid #ddd;
+	border-left:1px solid #ddd;
+	height:31px;
+}
+#header-first .top_right #SubService>h2{
+	text-align:left;
+	font-size: 12px;
+	color:#666;
+}
+#header-first .top_right #SubService>li{
+	width:48%;height:25px;
+	box-sizing: border-box;
+	font-size:12px;
+	color:#999;
+	text-align:left;
+}
+#header-first #service:hover #SubService{display: block;z-index:60;}
+
+#header-first .top_right #webnav{
+	position: relative;/*
+	box-sizing: content-box;*/
+	margin-left: 2px;
+}
+#header-first .top_right #webnav>div.Subwebnav{
+	width:1280px;height:190px;
+	border:1px solid #ddd;
+	position: absolute;
+	top:30px;left:-1080px;
+	display: none;
+	background: #fff;
+}
+#header-first #webnav>.Subwebnav>ul{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	border-right:1px solid #ddd;
+}
+#header-first #webnav>.Subwebnav>ul h2{
+	color:#666;
+	font-size:12px;
+	text-align: left;
+}
+#header-first #webnav>.Subwebnav>ul li{
+	text-align:left;
+	color:#999;height:15%;
+}
+#header-first #webnav>.Subwebnav>ul:nth-child(1){	width:370px;height:170px;}
+#header-first #webnav>.Subwebnav>ul:nth-child(1)>li{width:25%;}
+
+#header-first #webnav>.Subwebnav>ul:nth-child(2){	
+	position: absolute;
+	top:0;left:390px;
+	width:280px;height:170px;
+}
+#header-first #webnav>.Subwebnav>ul:nth-child(2)>li{width: 33.33%;}
+
+#header-first #webnav>.Subwebnav>ul:nth-child(3){
+	position: absolute;
+	top:0;left:690px;
+	width:280px;height:170px;
+}
+#header-first #webnav>.Subwebnav>ul:nth-child(3)>li{width: 33.33%;}
+
+#header-first #webnav>.Subwebnav>ul:nth-child(4){
+	position: absolute;
+	top:0;right:0;
+	width:280px;
+	height:170px;
+}
+#header-first #webnav>.Subwebnav>ul:nth-child(4)>li{width: 33.33%;}
+#header-first .top_right>#webnav:hover{
+	background-color: #fff;
+	border-right:1px solid #ddd;
+	border-left:1px solid #ddd;
+	height:31px;
+}
+#header-first .top_right #webnav:hover .Subwebnav{display: block;z-index:60;}
